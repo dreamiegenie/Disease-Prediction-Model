@@ -1,0 +1,115 @@
+{
+  "months_map": {
+    "Jan": 1,
+    "Feb": 2,
+    "Mar": 3,
+    "Apr": 4,
+    "May": 5,
+    "Jun": 6,
+    "Jul": 7,
+    "Aug": 8,
+    "Sep": 9,
+    "Oct": 10,
+    "Nov": 11,
+    "Dec": 12
+  },
+  "labels": [
+    "Acute Respiratory Infection",
+    "COVID-19",
+    "Cholera",
+    "Healthy",
+    "Lassa Fever",
+    "Malaria",
+    "Meningitis",
+    "Tuberculosis",
+    "Typhoid Fever"
+  ],
+  "labels_encoding": {
+    "0": "Acute Respiratory Infection",
+    "1": "COVID-19",
+    "2": "Cholera",
+    "3": "Healthy",
+    "4": "Lassa Fever",
+    "5": "Malaria",
+    "6": "Meningitis",
+    "7": "Tuberculosis",
+    "8": "Typhoid Fever"
+  },
+  "numeric_columns": [
+    "month",
+    "age",
+    "pregnant",
+    "bmi",
+    "days_symptoms",
+    "temperature_c",
+    "heart_rate",
+    "resp_rate",
+    "spo2",
+    "sbp",
+    "dbp",
+    "fever",
+    "cough",
+    "sore_throat",
+    "headache",
+    "vomiting",
+    "diarrhea",
+    "rash",
+    "neck_stiffness",
+    "weight_loss",
+    "fatigue",
+    "mosquito_exposure",
+    "unsafe_water",
+    "tb_contact",
+    "recent_travel",
+    "vaccinated",
+    "hemoglobin",
+    "wbc",
+    "platelets",
+    "bmi_flag"
+  ],
+  "sex_columns": [
+    "Female",
+    "Male"
+  ],
+  "state_columns": [
+    "State__Anambra",
+    "State__Bauchi",
+    "State__Benue",
+    "State__Borno",
+    "State__Enugu",
+    "State__FCT",
+    "State__Kaduna",
+    "State__Kano",
+    "State__Lagos",
+    "State__Oyo",
+    "State__Plateau",
+    "State__Rivers"
+  ],
+  "season_columns": [
+    "Dry",
+    "Rainy"
+  ],
+  "target_columns": [
+    "Acute Respiratory Infection",
+    "COVID-19",
+    "Cholera",
+    "Healthy",
+    "Lassa Fever",
+    "Malaria",
+    "Meningitis",
+    "Tuberculosis",
+    "Typhoid Fever"
+  ],
+  "n_features": 46,
+  "scaled": false,
+  "poly": false,
+  "model_type": "rf",
+  "train_shape": [
+    120002,
+    46
+  ],
+  "test_shape": [
+    30001,
+    46
+  ]
+}
